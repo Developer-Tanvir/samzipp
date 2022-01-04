@@ -332,12 +332,13 @@ p{
     padding-top: 20px;
     padding: 14px 14px;
     text-align: center;
-    color: var(--body-color);
+    color: #000;
 }
 .bottom p{
     font-size: 16px;
     padding-top: 20px;
     padding: 14px 14px;
     text-align: center;
-    color: var(--body-color);
+    color: #000;
+    font-weight: 600;
 }
