@@ -60,7 +60,7 @@ h4{
 p{
     font-family: Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 19.09px;
 }
 
@@ -109,8 +109,8 @@ p{
     padding-right: 14px;
     align-items: center;
 }
-.headding-logos img{
-    padding-right: 31.5px;
+.headding-logos img {
+    padding-right: 13.55px;
 }
 .headding h2{
     
@@ -144,13 +144,18 @@ p{
 }
 .Gift-Dimensions-items{
     display: flex;
-    gap: 15px;
+    gap: 10px;
     margin-bottom: 12px;
+    
 }
-.left-items{
+.left-items {
     background-color: #EFEFEF;
-    padding: 10px 25px;
+    padding: 10px 15px;
     border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    flex-basis: 145px;
+    text-align: center;
 }
 .gift-bottom{
     padding-bottom: 0;
@@ -169,10 +174,26 @@ p{
 .next-steps-subhadding h4{
     padding-bottom: 0;
 }
-.next-steps i{
-    font-size: 11px;
-    line-height: 13.18px;
+.next-steps-subhadding h5{
+    font-size: 14px;
+}
+.next-steps-subhadding h5:nth-child(2){
+   
+    padding-bottom: 5px;
+    
+}
+.next-steps-subhadding h5:nth-child(3){
+    font-size: 14px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.next-steps{
     text-align: center;
+}
+.next-steps i{
+    font-size: 13px;
+    line-height: 13.18px;
+    
     
 }
 
@@ -187,10 +208,14 @@ p{
     border-bottom: 1px solid #EFEFEF;
 }
 .Campaign-Summary-btn{
-    padding: 8px 25px;
+    padding: 4px 15px;
     background-color: #EFEFEF;
     border-radius: 25px;
     
+}
+.Campaign-Summary-btn h4{
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .Campaign-Summary .next-steps-subhadding{
@@ -280,8 +305,8 @@ p{
     padding: 20px 0;
     
 }
-.Payment-Summary-btn{
-    padding: 8px 30px;
+.Payment-Summary-btn {
+    padding: 5px 14px;
     background-color: #EFEFEF;
     border-radius: 25px;
 }
@@ -290,8 +315,9 @@ p{
     margin-bottom: 6px;
     display: inline-block;
 }
-.gift-detelse-content p{
+.gift-detelse-content i{
     font-size: 14px;
+    display: block;
     
 }
 /* Questions */
@@ -303,6 +329,7 @@ p{
     padding: 11px;
     display: flex;
     column-gap: 20px;
+    align-items: center;
 }
 .Questions-image-div{
     width: 40%;
@@ -313,8 +340,8 @@ p{
     color: var(--primary-color);
 }
 .Questions-content-div p{
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 15px;
+    
     
 }
 .Questions-content-div a{
@@ -332,13 +359,13 @@ p{
     padding-top: 20px;
     padding: 14px 14px;
     text-align: center;
-    color: #000;
+    color: var(--body-color);
 }
 .bottom p{
     font-size: 16px;
     padding-top: 20px;
     padding: 14px 14px;
     text-align: center;
-    color: #000;
+    color: var(--body-color);
     font-weight: 600;
 }
