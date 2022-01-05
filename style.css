@@ -315,10 +315,9 @@ p{
     margin-bottom: 6px;
     display: inline-block;
 }
-.gift-detelse-content i{
-    font-size: 14px;
+.gift-detelse-content i {
+    font-size: 11px;
     display: block;
-    
 }
 /* Questions */
 .Questions{
