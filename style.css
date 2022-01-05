@@ -348,24 +348,26 @@ p{
     color: var(--primary-color);
     
 }
-.bottom h3{
+.bottom h3 {
     padding-top: 60px;
     text-align: center;
     color: var(--primary-color);
     font-weight: 700;
+    font-size: 13px;
 }
-.bottom h5{
+.bottom h5 {
     font-size: 14px;
     padding-top: 20px;
     padding: 14px 14px;
     text-align: center;
     color: var(--body-color);
+    font-weight: 400;
 }
 .bottom p{
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 20px;
     padding: 14px 14px;
     text-align: center;
     color: var(--body-color);
-    font-weight: 600;
+    font-weight: 400;
 }
