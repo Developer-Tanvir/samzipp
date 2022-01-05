@@ -188,11 +188,12 @@ p{
     margin-bottom: 20px;
 }
 .next-steps{
-    text-align: center;
+    
 }
 .next-steps i{
     font-size: 13px;
     line-height: 13.18px;
+    text-align: center;
     
     
 }
